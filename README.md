@@ -45,20 +45,20 @@ http://localhost:8080/products/1
 - GET Filtrar
 http://localhost:8080/products/filter?maxPrice=1000
 
-* Validaciones
-`name` no puede estar vacío
-`price` debe ser mayor a 0
-`price` no puede ser mayor a 10,000
+*Validaciones
+- `name` no puede estar vacío
+- `price` debe ser mayor a 0
+- `price` no puede ser mayor a 10,000
 
-* Evidencias imagenes.
-`Todos los productos` images/GET_All_Products.png
-`Buscar por ID` images/GET_By_id.png
-`Filtrar por precio` images/GET_Filter.png
-`Crear producto` images/POST_Create_Product.png
-`Error/Validacion nombre` images/error_name.png
-`Error/Validacion precio negativo` images/error_Negative_Price.png
-`Error/Validacion precio maximo` images/error_Max_Price.png
-`Error/Validacion id inexistente` images/error_id_NF.png
+*Evidencias imagenes.
+- `Todos los productos` images/GET_All_Products.png
+- `Buscar por ID` images/GET_By_id.png
+- `Filtrar por precio` images/GET_Filter.png
+- `Crear producto` images/POST_Create_Product.png
+- `Error/Validacion nombre` images/error_name.png
+- `Error/Validacion precio negativo` images/error_Negative_Price.png
+- `Error/Validacion precio maximo` images/error_Max_Price.png
+- `Error/Validacion id inexistente` images/error_id_NF.png
 
-* Consola H2 DB
+*Consola H2 DB
 - URL http://localhost:8080/h2-console
